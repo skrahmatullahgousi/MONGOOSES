@@ -16,7 +16,8 @@ const userschema=new mongoose.Schema({
     email:String,
     age:Number
 })
-const User=mongoose.model("User",userschema); //here user is class to insert the data we should crate a object
+const User=mongoose.model("User",userschema); 
+//here user is class to insert the data we should crate a object
 /*let userobj=new User({name:"shaik rahmatullah",email:"skrahmath@gmail",age:23});
 //to insert into the db we should save it by useing the save function
 userobj.save();
